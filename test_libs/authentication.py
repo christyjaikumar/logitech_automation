@@ -18,15 +18,10 @@ import pathlib
 user_name = getpass.getuser()
 RESULT = os.path.join("C:\\","Users",user_name, "PycharmProjects","logitech_automation", "results")
 
-#log = logging.basicConfig(filename=debug_file, level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - '
-#                                                                           '%(message)s')
-
-
 class Scenario_1:
     def __init__(self, chrome_path, home_page):
         self.chrome_path = chrome_path
         self.home_page = home_page
-        #self.log = logging.getLogger(__name__)
         self.logger = logger.get_logger()
 
     def t1_verify_form_authentication(self):
@@ -213,7 +208,8 @@ class Scenario_2(Scenario_1):
 
     def launch_naukri_app(self):
         '''
-        :return:
+        Script to lauch Naukri web page and read the popup windo details
+        :return: Boolean value
         '''
         try:
             comp_names = []
