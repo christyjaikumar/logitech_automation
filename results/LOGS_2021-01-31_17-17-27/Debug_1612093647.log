@@ -1,0 +1,9 @@
+2021-01-31 17:17:39,768 root         INFO     Login Successful to Form Authentication
+2021-01-31 17:17:55,825 root         INFO     Dynamic Loading Verified
+2021-01-31 17:18:07,329 root         INFO     The URL of new window opened : http://the-internet.herokuapp.com/windows/new
+2021-01-31 17:18:07,478 root         INFO     The title of current window : The Internet
+2021-01-31 17:22:18,339 root         INFO     Drag and Drop verified successfully
+2021-01-31 17:22:34,437 root         INFO     Frames Verified
+2021-01-31 17:22:42,854 root         INFO     Alert Verified Successfully
+2021-01-31 17:22:55,778 root         INFO     company name to be verified : hsbc
+2021-01-31 17:22:55,909 root         INFO     Passed: company name hsbc and  pop-up window title matched
